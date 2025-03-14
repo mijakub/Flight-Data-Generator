@@ -1,0 +1,93 @@
+Kod IATA,Nazwa lotniska,Kraj,Kontynent
+ATL,Port lotniczy Hartsfield-Jackson w Atlancie,Stany Zjednoczone,Ameryka Północna
+PEK,Port lotniczy Pekin,Chiny,Azja
+DXB,Port lotniczy Dubaj,Zjednoczone Emiraty Arabskie,Azja
+LAX,Port lotniczy Los Angeles,Stany Zjednoczone,Ameryka Północna
+HND,Port lotniczy Tokio-Haneda,Japonia,Azja
+ORD,Port lotniczy Chicago-O'Hare,Stany Zjednoczone,Ameryka Północna
+LHR,Port lotniczy Londyn-Heathrow,Wielka Brytania,Europa
+PVG,Port lotniczy Szanghaj-Pudong,Chiny,Azja
+CDG,Port lotniczy Paryż-Charles de Gaulle,Francja,Europa
+DFW,Port lotniczy Dallas-Fort Worth,Stany Zjednoczone,Ameryka Północna
+CAN,Port lotniczy Kanton,Chiny,Azja
+AMS,Port lotniczy Amsterdam-Schiphol,Holandia,Europa
+FRA,Port lotniczy Frankfurt, Niemcy,Europa
+IST,Port lotniczy Stambuł,Turcja,Europa
+ICN,Port lotniczy Seul-Inczon,Korea Południowa,Azja
+SIN,Port lotniczy Singapur-Changi,Singapur,Azja
+DEN,Port lotniczy Denver,Stany Zjednoczone,Ameryka Północna
+BKK,Port lotniczy Bangkok-Suvarnabhumi,Tajlandia,Azja
+JFK,Port lotniczy Nowy Jork-JFK,Stany Zjednoczone,Ameryka Północna
+KUL,Port lotniczy Kuala Lumpur, Malezja,Azja
+SFO,Port lotniczy San Francisco,Stany Zjednoczone,Ameryka Północna
+LAS,Port lotniczy Las Vegas,Stany Zjednoczone,Ameryka Północna
+SEA,Port lotniczy Seattle-Tacoma,Stany Zjednoczone,Ameryka Północna
+MIA,Port lotniczy Miami,Stany Zjednoczone,Ameryka Północna
+MUC,Port lotniczy Monachium,Niemcy,Europa
+PHX,Port lotniczy Phoenix Sky Harbor,Stany Zjednoczone,Ameryka Północna
+IAH,Port lotniczy Houston-George Bush,Stany Zjednoczone,Ameryka Północna
+CLT,Port lotniczy Charlotte Douglas,Stany Zjednoczone,Ameryka Północna
+GRU,Port lotniczy São Paulo-Guarulhos,Brazylia,Ameryka Południowa
+EWR,Port lotniczy Newark,Stany Zjednoczone,Ameryka Północna
+SYD,Port lotniczy Sydney,Australia,Australia
+MCO,Port lotniczy Orlando,Stany Zjednoczone,Ameryka Północna
+FCO,Port lotniczy Rzym-Fiumicino,Włochy,Europa
+YYZ,Port lotniczy Toronto-Pearson,Kanada,Ameryka Północna
+MSP,Port lotniczy Minneapolis-Saint Paul,Stany Zjednoczone,Ameryka Północna
+BCN,Port lotniczy Barcelona,Hiszpania,Europa
+BOM,Port lotniczy Mumbaj,Indie,Azja
+DEL,Port lotniczy Nowe Delhi,Indie,Azja
+MAD,Port lotniczy Madryt-Barajas,Hiszpania,Europa
+SZX,Port lotniczy Shenzhen,Chiny,Azja
+MEL,Port lotniczy Melbourne,Australia,Australia
+HKG,Port lotniczy Hongkong,Hongkong,Azja
+LGW,Port lotniczy Londyn-Gatwick,Wielka Brytania,Europa
+NRT,Port lotniczy Tokio-Narita,Japonia,Azja
+DME,Port lotniczy Moskwa-Domodiedowo,Rosja,Europa
+SVO,Port lotniczy Moskwa-Szeremietiewo,Rosja,Europa
+SHA,Port lotniczy Szanghaj-Hongqiao,Chiny,Azja
+CGK,Port lotniczy Dżakarta-Soekarno-Hatta,Indonezja,Azja
+KMG,Port lotniczy Kunming,Chiny,Azja
+BOS,Port lotniczy Boston-Logan,Stany Zjednoczone,Ameryka Północna
+PHL,Port lotniczy Filadelfia,Stany Zjednoczone,Ameryka Północna
+FLL,Port lotniczy Fort Lauderdale,Stany Zjednoczone,Ameryka Północna
+KIX,Port lotniczy Osaka-Kansai,Japonia,Azja
+SLC,Port lotniczy Salt Lake City,Stany Zjednoczone,Ameryka Północna
+DUB,Port lotniczy Dublin,Irlandia,Europa
+CPH,Port lotniczy Kopenhaga,Dania,Europa
+ARN,Port lotniczy Sztokholm-Arlanda,Szwecja,Europa
+OSL,Port lotniczy Oslo,Norwegia,Europa
+HEL,Port lotniczy Helsinki-Vantaa,Finlandia,Europa
+ZRH,Port lotniczy Zurych,Szwajcaria,Europa
+VIE,Port lotniczy Wiedeń,Austria,Europa
+BRU,Port lotniczy Bruksela,Belgia,Europa
+GVA,Port lotniczy Genewa,Szwajcaria,Europa
+LIS,Port lotniczy Lizbona,Portugalia,Europa
+PRG,Port lotniczy Praga,Czechy,Europa
+WAW,Port lotniczy Warszawa-Okęcie,Polska,Europa
+BUD,Port lotniczy Budapeszt,Węgry,Europa
+ATH,Port lotniczy Ateny,Grecia,Europa
+IST,Port lotniczy Stambuł,Turcja,Europa
+TLV,Port lotniczy Tel Awiw-Ben Gurion,Izrael,Azja
+CAI,Port lotniczy Kair,Egipt,Africa
+JNB,Port lotniczy Johannesburg,Republika Południowej Afryki,Africa
+CPT,Port lotniczy Kapsztad,Republika Południowej Afryki,Africa
+ADD,Portlotniczy Addis Abeba,Botswana,Africa
+DOH,Port lotniczy Doha,Katar,Azja
+AUH,Port lotniczy Abu Zabi,Zjednoczone Emiraty Arabskie,Azja
+BNE,Port lotniczy Brisbane,Australia,Australia
+PER,Port lotniczy Perth,Australia,Australia
+ADL,Port lotniczy Adelaide,Australia,Australia
+AKL,Port lotniczy Auckland,Nowa Zelandia,Australia
+WLG,Port lotniczy Wellington,Nowa Zelandia,Australia
+CHC,Port lotniczy Christchurch,Nowa Zelandia,Australia
+HNL,Port lotniczy Honolulu,Stany Zjednoczone,Ameryka Północna
+YVR,Port lotniczy Vancouver,Kanada,Ameryka Północna
+CUN,Port lotniczy Cancún,Meksyk,Ameryka Północna
+MEX,Port lotniczy Meksyk,Meksyk,Ameryka Północna
+BOG,Port lotniczy Bogota,Kolumbia,Ameryka Południowa
+LIM,Port lotniczy Lima,Peru,Ameryka Południowa
+EZE,Port lotniczy Buenos Aires- Ezeiza,Argentyna,Ameryka Południowa
+SCL,Port lotniczy Santiago de Chile,Chile,Ameryka Południowa
+GIG,Port lotniczy Rio de Janeiro-Galeão,Brazylia,Ameryka Południowa
+BSB,Port lotniczy Brasília,Brazylia,Ameryka Południowa

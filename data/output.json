@@ -1,0 +1,55 @@
+{
+    "date": "2025-03-14",
+    "flights": [
+        {
+            "flight_number": "AF1595",
+            "departure_airport": "CDG",
+            "arrival_airport": "AUH",
+            "airline": "Air France",
+            "price": 6347.0,
+            "available_tickets": 19,
+            "class": "Business",
+            "distance_km": 49360
+        },
+        {
+            "flight_number": "IB8736",
+            "departure_airport": "BCN",
+            "arrival_airport": "WAW",
+            "airline": "Iberia",
+            "price": 15896.0,
+            "available_tickets": 9,
+            "class": "First",
+            "distance_km": 29
+        },
+        {
+            "flight_number": "AA8397",
+            "departure_airport": "PHX",
+            "arrival_airport": "CGK",
+            "airline": "American Airlines",
+            "price": 3626.0,
+            "available_tickets": 62,
+            "class": "Premium",
+            "distance_km": 88137
+        },
+        {
+            "flight_number": "AA5275",
+            "departure_airport": "LAX",
+            "arrival_airport": "NRT",
+            "airline": "American Airlines",
+            "price": 20947.0,
+            "available_tickets": 5,
+            "class": "First",
+            "distance_km": 140291
+        },
+        {
+            "flight_number": "QF2499",
+            "departure_airport": "SYD",
+            "arrival_airport": "DUB",
+            "airline": "Qantas",
+            "price": 2199.0,
+            "available_tickets": 55,
+            "class": "Premium",
+            "distance_km": 62087
+        }
+    ]
+}

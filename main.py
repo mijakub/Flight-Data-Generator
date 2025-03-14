@@ -11,8 +11,20 @@ def main():
                 return (searchedAirline, airlineCode)
             
     #funkcja wyszukująca kraj, w zależności od podanych kodów lotniska
-    def findCountry(apcode):
-        return
+    def findCountry(apcode, airports):
+        country = ""
+        for airport in airports:
+            if airport["Kod IATA"] == apcode:
+                country = airport["Kraj"]
+                return country
+            
+    #funkcja wyszukująca kontynent, w zależności od podanych kodów lotniska
+    def findContinent(apcode, airports):
+        continent = ""
+        for airport in airports:
+            if airport["Kod IATA"] == apcode:
+                continent = airport["Kontynent"]
+                return continent
     
     #zaimportowanie modułów
     import datetime
@@ -23,7 +35,7 @@ def main():
     import os
 
     #utworzenie argumentów
-    parser = argparse.ArgumentParser(description="A simple example using argparse.")
+    parser = argparse.ArgumentParser()
     parser.add_argument('--num_records', type=int, help='Liczba generowanych rekordów', required=True)
     parser.add_argument('--date', type=str, help='Data wygenerowania cennika', required=True)
     parser.add_argument('--filter_continent', type=str, help='Ograniczenie lotów do wybranego kontynentu')
@@ -31,6 +43,11 @@ def main():
     parser.add_argument('--filter_destination', type=str, nargs="+", help='Ograniczenie lotnisk docelowych do konkretnej listy lotnisk')
     args = parser.parse_args()
 
+    #sprawdzenie poprawności wpisanych argumentów 
+    if args.date != datetime.datetime.strptime(args.date, "%Y-%m-%d").date().strftime("%Y-%m-%d"):
+        print("Wpisz poprawną datę!")
+        return
+    
     #odczytanie pliku z lotniskami i uporządkowanie danych w liście słowników
     airportsDicts = []
     with open(os.path.join("data", "airports.csv"), newline="", encoding="utf-8") as csvfile:
@@ -62,7 +79,7 @@ def main():
         if args.filter_origin:
             originRandom = random.randint(0, len(args.filter_origin)-1)
             originAP = args.filter_origin[originRandom]
-            airlineInfo = findAirline(findCountry(originAP), airlinesDicts)
+            airlineInfo = findAirline(findCountry(originAP, airportsDicts), airlinesDicts)
         else:
             originRandom = random.randint(0, len(airportsDicts)-1)
             originAP = airportsDicts[originRandom]["Kod IATA"]
@@ -74,7 +91,14 @@ def main():
             destinationRandom = random.randint(0, len(airportsDicts)-1)
             destinationAP = airportsDicts[destinationRandom]["Kod IATA"]
 
-        #znalezienie linii lotniczej z kraju lotniska wylotu, w przypadku braku, ponowny przelot pętli
+        #obsługa przypadków, gdy pętla musi wykonać się ponownie
+        if originAP == destinationAP:
+            continue
+
+        if args.filter_continent:
+            if (findContinent(originAP, airportsDicts) != args.filter_continent) | (findContinent(destinationAP, airportsDicts) != args.filter_continent):
+                continue
+
         if airlineInfo == None:
             continue
         

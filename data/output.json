@@ -2,54 +2,54 @@
     "date": "2025-03-14",
     "flights": [
         {
-            "flight_number": "AF1595",
-            "departure_airport": "CDG",
-            "arrival_airport": "AUH",
-            "airline": "Air France",
-            "price": 6347.0,
+            "flight_number": "SQ8246",
+            "departure_airport": "SIN",
+            "arrival_airport": "DOH",
+            "airline": "Singapore Airlines",
+            "price": 19650.5,
+            "available_tickets": 17,
+            "class": "First",
+            "distance_km": 5718
+        },
+        {
+            "flight_number": "AA9796",
+            "departure_airport": "MSP",
+            "arrival_airport": "DUB",
+            "airline": "American Airlines",
+            "price": 4812.0,
+            "available_tickets": 50,
+            "class": "Premium",
+            "distance_km": 789
+        },
+        {
+            "flight_number": "AA7022",
+            "departure_airport": "PHX",
+            "arrival_airport": "JFK",
+            "airline": "American Airlines",
+            "price": 1269.0,
+            "available_tickets": 48,
+            "class": "Premium",
+            "distance_km": 384
+        },
+        {
+            "flight_number": "AA7297",
+            "departure_airport": "SFO",
+            "arrival_airport": "GVA",
+            "airline": "American Airlines",
+            "price": 3051.0,
+            "available_tickets": 2,
+            "class": "Premium",
+            "distance_km": 73243
+        },
+        {
+            "flight_number": "EK6290",
+            "departure_airport": "DXB",
+            "arrival_airport": "JFK",
+            "airline": "Emirates",
+            "price": 6230.0,
             "available_tickets": 19,
             "class": "Business",
-            "distance_km": 49360
-        },
-        {
-            "flight_number": "IB8736",
-            "departure_airport": "BCN",
-            "arrival_airport": "WAW",
-            "airline": "Iberia",
-            "price": 15896.0,
-            "available_tickets": 9,
-            "class": "First",
-            "distance_km": 29
-        },
-        {
-            "flight_number": "AA8397",
-            "departure_airport": "PHX",
-            "arrival_airport": "CGK",
-            "airline": "American Airlines",
-            "price": 3626.0,
-            "available_tickets": 62,
-            "class": "Premium",
-            "distance_km": 88137
-        },
-        {
-            "flight_number": "AA5275",
-            "departure_airport": "LAX",
-            "arrival_airport": "NRT",
-            "airline": "American Airlines",
-            "price": 20947.0,
-            "available_tickets": 5,
-            "class": "First",
-            "distance_km": 140291
-        },
-        {
-            "flight_number": "QF2499",
-            "departure_airport": "SYD",
-            "arrival_airport": "DUB",
-            "airline": "Qantas",
-            "price": 2199.0,
-            "available_tickets": 55,
-            "class": "Premium",
-            "distance_km": 62087
+            "distance_km": 67368
         }
     ]
 }

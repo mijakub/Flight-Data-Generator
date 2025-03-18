@@ -1,38 +1,39 @@
-def main():
+#zaimportowanie modułów
+import datetime
+import json
+import argparse
+import csv
+import random
+import os
 
-    #funkcja wyszukująca linię lotniczą, w zależności od kraju lotniska wylotu
-    def findAirline(country, airlines):
-        searchedAirline = ""
-        airlineCode = ""
-        for airline in airlines:
-            if airline["Kraj pochodzenia"] == country:
-                searchedAirline = airline["Nazwa linii lotniczej"]
-                airlineCode = airline["Kod IATA"]
-                return (searchedAirline, airlineCode)
+#funkcja wyszukująca linię lotniczą, w zależności od kraju lotniska wylotu
+def findAirline(country, airlines):
+    searchedAirline = ""
+    airlineCode = ""
+    for airline in airlines:
+        if airline["Kraj pochodzenia"] == country:
+            searchedAirline = airline["Nazwa linii lotniczej"]
+            airlineCode = airline["Kod IATA"]
+            return (searchedAirline, airlineCode)
             
-    #funkcja wyszukująca kraj, w zależności od podanych kodów lotniska
-    def findCountry(apcode, airports):
-        country = ""
-        for airport in airports:
-            if airport["Kod IATA"] == apcode:
-                country = airport["Kraj"]
-                return country
+#funkcja wyszukująca kraj, w zależności od podanych kodów lotniska
+def findCountry(apcode, airports):
+    country = ""
+    for airport in airports:
+        if airport["Kod IATA"] == apcode:
+            country = airport["Kraj"]
+            return country
             
-    #funkcja wyszukująca kontynent, w zależności od podanych kodów lotniska
-    def findContinent(apcode, airports):
-        continent = ""
-        for airport in airports:
-            if airport["Kod IATA"] == apcode:
-                continent = airport["Kontynent"]
-                return continent
-    
-    #zaimportowanie modułów
-    import datetime
-    import json
-    import argparse
-    import csv
-    import random
-    import os
+#funkcja wyszukująca kontynent, w zależności od podanych kodów lotniska
+def findContinent(apcode, airports):
+    continent = ""
+    for airport in airports:
+        if airport["Kod IATA"] == apcode:
+            continent = airport["Kontynent"]
+            return continent
+
+#funkcja main
+def main():
 
     #utworzenie argumentów
     parser = argparse.ArgumentParser()
@@ -137,4 +138,5 @@ def main():
     with open(os.path.join("data", "output.json"), "w") as file:
         json.dump(output, file, indent=4)
 
-main()
+if __name__ == "__main__":
+    main()

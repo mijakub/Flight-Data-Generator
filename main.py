@@ -138,5 +138,6 @@ def main():
     with open(os.path.join("data", "output.json"), "w") as file:
         json.dump(output, file, indent=4)
 
+#Wywołanie funkcji main
 if __name__ == "__main__":
     main()

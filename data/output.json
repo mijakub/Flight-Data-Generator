@@ -1,55 +1,1005 @@
 {
-    "date": "2025-03-14",
+    "date": "2025-03-26",
     "flights": [
         {
-            "flight_number": "SQ8246",
-            "departure_airport": "SIN",
-            "arrival_airport": "DOH",
-            "airline": "Singapore Airlines",
-            "price": 19650.5,
-            "available_tickets": 17,
+            "flight_number": "NH6264",
+            "departure_airport": "NRT",
+            "arrival_airport": "CUN",
+            "airline": "All Nippon Airways",
+            "price": 5778.0,
+            "available_tickets": 35,
+            "class": "Business",
+            "distance_km": 191570
+        },
+        {
+            "flight_number": "QF7869",
+            "departure_airport": "ADL",
+            "arrival_airport": "KMG",
+            "airline": "Qantas",
+            "price": 1412.0,
+            "available_tickets": 16,
+            "class": "Economy",
+            "distance_km": 3884
+        },
+        {
+            "flight_number": "QF4940",
+            "departure_airport": "MEL",
+            "arrival_airport": "MCO",
+            "airline": "Qantas",
+            "price": 55379.0,
+            "available_tickets": 14,
             "class": "First",
-            "distance_km": 5718
+            "distance_km": 195682
         },
         {
-            "flight_number": "AA9796",
-            "departure_airport": "MSP",
-            "arrival_airport": "DUB",
+            "flight_number": "AA2634",
+            "departure_airport": "IAH",
+            "arrival_airport": "SVO",
             "airline": "American Airlines",
-            "price": 4812.0,
-            "available_tickets": 50,
-            "class": "Premium",
-            "distance_km": 789
+            "price": 89418.0,
+            "available_tickets": 16,
+            "class": "First",
+            "distance_km": 120159
         },
         {
-            "flight_number": "AA7022",
-            "departure_airport": "PHX",
-            "arrival_airport": "JFK",
+            "flight_number": "FR7315",
+            "departure_airport": "DUB",
+            "arrival_airport": "ADD",
+            "airline": "Ryanair",
+            "price": 10634.0,
+            "available_tickets": 23,
+            "class": "Business",
+            "distance_km": 162890
+        },
+        {
+            "flight_number": "AA6732",
+            "departure_airport": "LAS",
+            "arrival_airport": "TLV",
             "airline": "American Airlines",
-            "price": 1269.0,
-            "available_tickets": 48,
-            "class": "Premium",
-            "distance_km": 384
+            "price": 23852.0,
+            "available_tickets": 16,
+            "class": "First",
+            "distance_km": 199304
         },
         {
-            "flight_number": "AA7297",
-            "departure_airport": "SFO",
-            "arrival_airport": "GVA",
+            "flight_number": "AA5555",
+            "departure_airport": "IAH",
+            "arrival_airport": "BNE",
             "airline": "American Airlines",
-            "price": 3051.0,
-            "available_tickets": 2,
-            "class": "Premium",
-            "distance_km": 73243
+            "price": 7186.0,
+            "available_tickets": 34,
+            "class": "Business",
+            "distance_km": 179066
         },
         {
-            "flight_number": "EK6290",
+            "flight_number": "QF5893",
+            "departure_airport": "MEL",
+            "arrival_airport": "HND",
+            "airline": "Qantas",
+            "price": 4265.0,
+            "available_tickets": 46,
+            "class": "Premium",
+            "distance_km": 6147
+        },
+        {
+            "flight_number": "EK6847",
             "departure_airport": "DXB",
-            "arrival_airport": "JFK",
+            "arrival_airport": "CHC",
             "airline": "Emirates",
-            "price": 6230.0,
+            "price": 1983.0,
+            "available_tickets": 37,
+            "class": "Economy",
+            "distance_km": 87045
+        },
+        {
+            "flight_number": "QF6282",
+            "departure_airport": "BNE",
+            "arrival_airport": "BRU",
+            "airline": "Qantas",
+            "price": 83940.0,
+            "available_tickets": 15,
+            "class": "First",
+            "distance_km": 162598
+        },
+        {
+            "flight_number": "QF4266",
+            "departure_airport": "MEL",
+            "arrival_airport": "FLL",
+            "airline": "Qantas",
+            "price": 1635.0,
+            "available_tickets": 99,
+            "class": "Economy",
+            "distance_km": 4693
+        },
+        {
+            "flight_number": "AA4387",
+            "departure_airport": "HNL",
+            "arrival_airport": "FLL",
+            "airline": "American Airlines",
+            "price": 2357.5,
+            "available_tickets": 21,
+            "class": "Premium",
+            "distance_km": 6313
+        },
+        {
+            "flight_number": "QF6745",
+            "departure_airport": "BNE",
+            "arrival_airport": "PHL",
+            "airline": "Qantas",
+            "price": 857.0,
+            "available_tickets": 57,
+            "class": "Economy",
+            "distance_km": 158477
+        },
+        {
+            "flight_number": "NH6236",
+            "departure_airport": "HND",
+            "arrival_airport": "OSL",
+            "airline": "All Nippon Airways",
+            "price": 17351.0,
+            "available_tickets": 29,
+            "class": "Business",
+            "distance_km": 126111
+        },
+        {
+            "flight_number": "AA4512",
+            "departure_airport": "MSP",
+            "arrival_airport": "MCO",
+            "airline": "American Airlines",
+            "price": 7991.5,
+            "available_tickets": 3,
+            "class": "Business",
+            "distance_km": 2026
+        },
+        {
+            "flight_number": "AZ9809",
+            "departure_airport": "FCO",
+            "arrival_airport": "BOS",
+            "airline": "Alitalia",
+            "price": 1560.0,
+            "available_tickets": 119,
+            "class": "Economy",
+            "distance_km": 14683
+        },
+        {
+            "flight_number": "QF3570",
+            "departure_airport": "PER",
+            "arrival_airport": "BSB",
+            "airline": "Qantas",
+            "price": 56221.0,
+            "available_tickets": 4,
+            "class": "First",
+            "distance_km": 50365
+        },
+        {
+            "flight_number": "AA5884",
+            "departure_airport": "DFW",
+            "arrival_airport": "DOH",
+            "airline": "American Airlines",
+            "price": 61197.0,
+            "available_tickets": 1,
+            "class": "First",
+            "distance_km": 35789
+        },
+        {
+            "flight_number": "SU7774",
+            "departure_airport": "SVO",
+            "arrival_airport": "BNE",
+            "airline": "Aeroflot",
+            "price": 4713.0,
+            "available_tickets": 26,
+            "class": "Premium",
+            "distance_km": 168803
+        },
+        {
+            "flight_number": "CZ8927",
+            "departure_airport": "PEK",
+            "arrival_airport": "DEL",
+            "airline": "China Southern Airlines",
+            "price": 80.5,
+            "available_tickets": 118,
+            "class": "Economy",
+            "distance_km": 5
+        },
+        {
+            "flight_number": "CZ1808",
+            "departure_airport": "PVG",
+            "arrival_airport": "CPH",
+            "airline": "China Southern Airlines",
+            "price": 7174.0,
+            "available_tickets": 25,
+            "class": "Business",
+            "distance_km": 86940
+        },
+        {
+            "flight_number": "CX4252",
+            "departure_airport": "HKG",
+            "arrival_airport": "JFK",
+            "airline": "Cathay Pacific",
+            "price": 2523.0,
+            "available_tickets": 80,
+            "class": "Premium",
+            "distance_km": 22141
+        },
+        {
+            "flight_number": "QF2501",
+            "departure_airport": "ADL",
+            "arrival_airport": "LAS",
+            "airline": "Qantas",
+            "price": 15139.0,
+            "available_tickets": 40,
+            "class": "Business",
+            "distance_km": 105978
+        },
+        {
+            "flight_number": "QF6389",
+            "departure_airport": "MEL",
+            "arrival_airport": "CHC",
+            "airline": "Qantas",
+            "price": 8134.5,
+            "available_tickets": 6,
+            "class": "Business",
+            "distance_km": 3237
+        },
+        {
+            "flight_number": "EK3994",
+            "departure_airport": "AUH",
+            "arrival_airport": "DXB",
+            "airline": "Emirates",
+            "price": 148.5,
+            "available_tickets": 55,
+            "class": "Economy",
+            "distance_km": 2867
+        },
+        {
+            "flight_number": "CZ5004",
+            "departure_airport": "CAN",
+            "arrival_airport": "FLL",
+            "airline": "China Southern Airlines",
+            "price": 1607.0,
+            "available_tickets": 11,
+            "class": "Economy",
+            "distance_km": 39627
+        },
+        {
+            "flight_number": "AA4366",
+            "departure_airport": "PHL",
+            "arrival_airport": "LAS",
+            "airline": "American Airlines",
+            "price": 6155.5,
+            "available_tickets": 15,
+            "class": "Business",
+            "distance_km": 6153
+        },
+        {
+            "flight_number": "IB5166",
+            "departure_airport": "MAD",
+            "arrival_airport": "MUC",
+            "airline": "Iberia",
+            "price": 5007.5,
+            "available_tickets": 22,
+            "class": "Business",
+            "distance_km": 8826
+        },
+        {
+            "flight_number": "NH8664",
+            "departure_airport": "HND",
+            "arrival_airport": "MCO",
+            "airline": "All Nippon Airways",
+            "price": 2148.0,
+            "available_tickets": 22,
+            "class": "Premium",
+            "distance_km": 160794
+        },
+        {
+            "flight_number": "AA3101",
+            "departure_airport": "FLL",
+            "arrival_airport": "JNB",
+            "airline": "American Airlines",
+            "price": 752.0,
+            "available_tickets": 83,
+            "class": "Economy",
+            "distance_km": 9465
+        },
+        {
+            "flight_number": "QF7518",
+            "departure_airport": "MEL",
+            "arrival_airport": "PHX",
+            "airline": "Qantas",
+            "price": 8231.0,
             "available_tickets": 19,
             "class": "Business",
-            "distance_km": 67368
+            "distance_km": 21302
+        },
+        {
+            "flight_number": "U28699",
+            "departure_airport": "LHR",
+            "arrival_airport": "ORD",
+            "airline": "easyJet",
+            "price": 231.0,
+            "available_tickets": 1,
+            "class": "Economy",
+            "distance_km": 70673
+        },
+        {
+            "flight_number": "AA3103",
+            "departure_airport": "LAS",
+            "arrival_airport": "SEA",
+            "airline": "American Airlines",
+            "price": 6091.5,
+            "available_tickets": 12,
+            "class": "Business",
+            "distance_km": 5492
+        },
+        {
+            "flight_number": "SU2587",
+            "departure_airport": "DME",
+            "arrival_airport": "AUH",
+            "airline": "Aeroflot",
+            "price": 13061.0,
+            "available_tickets": 37,
+            "class": "Business",
+            "distance_km": 15059
+        },
+        {
+            "flight_number": "AA1964",
+            "departure_airport": "MIA",
+            "arrival_airport": "GVA",
+            "airline": "American Airlines",
+            "price": 78504.0,
+            "available_tickets": 18,
+            "class": "First",
+            "distance_km": 148659
+        },
+        {
+            "flight_number": "EK4021",
+            "departure_airport": "AUH",
+            "arrival_airport": "ATL",
+            "airline": "Emirates",
+            "price": 1147.0,
+            "available_tickets": 102,
+            "class": "Economy",
+            "distance_km": 182410
+        },
+        {
+            "flight_number": "AA8499",
+            "departure_airport": "ORD",
+            "arrival_airport": "MEL",
+            "airline": "American Airlines",
+            "price": 277.0,
+            "available_tickets": 54,
+            "class": "Economy",
+            "distance_km": 161795
+        },
+        {
+            "flight_number": "AA4371",
+            "departure_airport": "DEN",
+            "arrival_airport": "DFW",
+            "airline": "American Airlines",
+            "price": 1019.0,
+            "available_tickets": 77,
+            "class": "Premium",
+            "distance_km": 6539
+        },
+        {
+            "flight_number": "AA9374",
+            "departure_airport": "PHX",
+            "arrival_airport": "SHA",
+            "airline": "American Airlines",
+            "price": 1453.0,
+            "available_tickets": 28,
+            "class": "Economy",
+            "distance_km": 54037
+        },
+        {
+            "flight_number": "AA3236",
+            "departure_airport": "LAS",
+            "arrival_airport": "WAW",
+            "airline": "American Airlines",
+            "price": 1433.0,
+            "available_tickets": 25,
+            "class": "Economy",
+            "distance_km": 62807
+        },
+        {
+            "flight_number": "AA2581",
+            "departure_airport": "JFK",
+            "arrival_airport": "LHR",
+            "airline": "American Airlines",
+            "price": 1163.0,
+            "available_tickets": 66,
+            "class": "Economy",
+            "distance_km": 149113
+        },
+        {
+            "flight_number": "AA1091",
+            "departure_airport": "HNL",
+            "arrival_airport": "SLC",
+            "airline": "American Airlines",
+            "price": 946.0,
+            "available_tickets": 75,
+            "class": "Economy",
+            "distance_km": 7012
+        },
+        {
+            "flight_number": "U24768",
+            "departure_airport": "LGW",
+            "arrival_airport": "PHX",
+            "airline": "easyJet",
+            "price": 11614.0,
+            "available_tickets": 38,
+            "class": "Business",
+            "distance_km": 189081
+        },
+        {
+            "flight_number": "QF7415",
+            "departure_airport": "BNE",
+            "arrival_airport": "CLT",
+            "airline": "Qantas",
+            "price": 6415.0,
+            "available_tickets": 31,
+            "class": "Business",
+            "distance_km": 108479
+        },
+        {
+            "flight_number": "EK1502",
+            "departure_airport": "AUH",
+            "arrival_airport": "DFW",
+            "airline": "Emirates",
+            "price": 2351.0,
+            "available_tickets": 25,
+            "class": "Premium",
+            "distance_km": 133258
+        },
+        {
+            "flight_number": "AA9214",
+            "departure_airport": "MCO",
+            "arrival_airport": "CDG",
+            "airline": "American Airlines",
+            "price": 7558.0,
+            "available_tickets": 13,
+            "class": "Business",
+            "distance_km": 189073
+        },
+        {
+            "flight_number": "AA2472",
+            "departure_airport": "ATL",
+            "arrival_airport": "WAW",
+            "airline": "American Airlines",
+            "price": 18889.0,
+            "available_tickets": 38,
+            "class": "Business",
+            "distance_km": 179521
+        },
+        {
+            "flight_number": "NH4488",
+            "departure_airport": "HND",
+            "arrival_airport": "SYD",
+            "airline": "All Nippon Airways",
+            "price": 233.0,
+            "available_tickets": 73,
+            "class": "Economy",
+            "distance_km": 18222
+        },
+        {
+            "flight_number": "TK1260",
+            "departure_airport": "IST",
+            "arrival_airport": "LIM",
+            "airline": "Turkish Airlines",
+            "price": 5334.0,
+            "available_tickets": 19,
+            "class": "Business",
+            "distance_km": 58057
+        },
+        {
+            "flight_number": "EK1942",
+            "departure_airport": "DXB",
+            "arrival_airport": "LGW",
+            "airline": "Emirates",
+            "price": 30069.0,
+            "available_tickets": 10,
+            "class": "First",
+            "distance_km": 87614
+        },
+        {
+            "flight_number": "AA6031",
+            "departure_airport": "EWR",
+            "arrival_airport": "MAD",
+            "airline": "American Airlines",
+            "price": 1619.0,
+            "available_tickets": 34,
+            "class": "Economy",
+            "distance_km": 155932
+        },
+        {
+            "flight_number": "AA4698",
+            "departure_airport": "FLL",
+            "arrival_airport": "WAW",
+            "airline": "American Airlines",
+            "price": 32834.0,
+            "available_tickets": 18,
+            "class": "First",
+            "distance_km": 116569
+        },
+        {
+            "flight_number": "KL3823",
+            "departure_airport": "AMS",
+            "arrival_airport": "AUH",
+            "airline": "KLM Holenderskie Linie Lotnicze",
+            "price": 7124.0,
+            "available_tickets": 37,
+            "class": "Business",
+            "distance_km": 174365
+        },
+        {
+            "flight_number": "EK8643",
+            "departure_airport": "AUH",
+            "arrival_airport": "ADD",
+            "airline": "Emirates",
+            "price": 998.0,
+            "available_tickets": 49,
+            "class": "Economy",
+            "distance_km": 22827
+        },
+        {
+            "flight_number": "AA8302",
+            "departure_airport": "SEA",
+            "arrival_airport": "JNB",
+            "airline": "American Airlines",
+            "price": 7309.0,
+            "available_tickets": 20,
+            "class": "Business",
+            "distance_km": 95669
+        },
+        {
+            "flight_number": "EK3027",
+            "departure_airport": "DXB",
+            "arrival_airport": "FLL",
+            "airline": "Emirates",
+            "price": 1564.0,
+            "available_tickets": 74,
+            "class": "Economy",
+            "distance_km": 57400
+        },
+        {
+            "flight_number": "AF4914",
+            "departure_airport": "CDG",
+            "arrival_airport": "DUB",
+            "airline": "Air France",
+            "price": 365.0,
+            "available_tickets": 111,
+            "class": "Economy",
+            "distance_km": 9317
+        },
+        {
+            "flight_number": "QF5612",
+            "departure_airport": "ADL",
+            "arrival_airport": "LHR",
+            "airline": "Qantas",
+            "price": 583.0,
+            "available_tickets": 106,
+            "class": "Economy",
+            "distance_km": 176164
+        },
+        {
+            "flight_number": "AA5758",
+            "departure_airport": "MSP",
+            "arrival_airport": "ZRH",
+            "airline": "American Airlines",
+            "price": 898.0,
+            "available_tickets": 38,
+            "class": "Economy",
+            "distance_km": 7686
+        },
+        {
+            "flight_number": "AA8742",
+            "departure_airport": "PHX",
+            "arrival_airport": "CPH",
+            "airline": "American Airlines",
+            "price": 19760.0,
+            "available_tickets": 36,
+            "class": "Business",
+            "distance_km": 74413
+        },
+        {
+            "flight_number": "AA6986",
+            "departure_airport": "LAX",
+            "arrival_airport": "DFW",
+            "airline": "American Airlines",
+            "price": 2208.5,
+            "available_tickets": 75,
+            "class": "Premium",
+            "distance_km": 1222
+        },
+        {
+            "flight_number": "EK8874",
+            "departure_airport": "AUH",
+            "arrival_airport": "JNB",
+            "airline": "Emirates",
+            "price": 87903.0,
+            "available_tickets": 7,
+            "class": "First",
+            "distance_km": 172599
+        },
+        {
+            "flight_number": "EK7748",
+            "departure_airport": "AUH",
+            "arrival_airport": "CGK",
+            "airline": "Emirates",
+            "price": 42626.0,
+            "available_tickets": 19,
+            "class": "First",
+            "distance_km": 9397
+        },
+        {
+            "flight_number": "QF4715",
+            "departure_airport": "PER",
+            "arrival_airport": "WAW",
+            "airline": "Qantas",
+            "price": 62520.0,
+            "available_tickets": 3,
+            "class": "First",
+            "distance_km": 42178
+        },
+        {
+            "flight_number": "AA3230",
+            "departure_airport": "EWR",
+            "arrival_airport": "LIS",
+            "airline": "American Airlines",
+            "price": 12956.0,
+            "available_tickets": 12,
+            "class": "Business",
+            "distance_km": 162764
+        },
+        {
+            "flight_number": "AA4590",
+            "departure_airport": "ATL",
+            "arrival_airport": "GRU",
+            "airline": "American Airlines",
+            "price": 56994.0,
+            "available_tickets": 8,
+            "class": "First",
+            "distance_km": 49370
+        },
+        {
+            "flight_number": "KE7010",
+            "departure_airport": "ICN",
+            "arrival_airport": "BOS",
+            "airline": "Korean Air",
+            "price": 3493.0,
+            "available_tickets": 56,
+            "class": "Premium",
+            "distance_km": 120824
+        },
+        {
+            "flight_number": "SU6100",
+            "departure_airport": "DME",
+            "arrival_airport": "BOG",
+            "airline": "Aeroflot",
+            "price": 2282.0,
+            "available_tickets": 41,
+            "class": "Premium",
+            "distance_km": 169530
+        },
+        {
+            "flight_number": "IB3442",
+            "departure_airport": "MAD",
+            "arrival_airport": "JFK",
+            "airline": "Iberia",
+            "price": 4215.0,
+            "available_tickets": 7,
+            "class": "Premium",
+            "distance_km": 68821
+        },
+        {
+            "flight_number": "AA1227",
+            "departure_airport": "SEA",
+            "arrival_airport": "KMG",
+            "airline": "American Airlines",
+            "price": 392.0,
+            "available_tickets": 99,
+            "class": "Economy",
+            "distance_km": 103212
+        },
+        {
+            "flight_number": "TK9304",
+            "departure_airport": "IST",
+            "arrival_airport": "YYZ",
+            "airline": "Turkish Airlines",
+            "price": 3973.0,
+            "available_tickets": 52,
+            "class": "Premium",
+            "distance_km": 33799
+        },
+        {
+            "flight_number": "AA6143",
+            "departure_airport": "PHL",
+            "arrival_airport": "MEL",
+            "airline": "American Airlines",
+            "price": 383.0,
+            "available_tickets": 33,
+            "class": "Economy",
+            "distance_km": 48968
+        },
+        {
+            "flight_number": "SU4672",
+            "departure_airport": "DME",
+            "arrival_airport": "FRA",
+            "airline": "Aeroflot",
+            "price": 12706.5,
+            "available_tickets": 17,
+            "class": "First",
+            "distance_km": 1816
+        },
+        {
+            "flight_number": "AA6367",
+            "departure_airport": "CLT",
+            "arrival_airport": "TLV",
+            "airline": "American Airlines",
+            "price": 2332.0,
+            "available_tickets": 72,
+            "class": "Premium",
+            "distance_km": 120601
+        },
+        {
+            "flight_number": "NH6373",
+            "departure_airport": "HND",
+            "arrival_airport": "SYD",
+            "airline": "All Nippon Airways",
+            "price": 1769.0,
+            "available_tickets": 73,
+            "class": "Economy",
+            "distance_km": 46832
+        },
+        {
+            "flight_number": "SU4162",
+            "departure_airport": "DME",
+            "arrival_airport": "CAI",
+            "airline": "Aeroflot",
+            "price": 9462.0,
+            "available_tickets": 8,
+            "class": "Business",
+            "distance_km": 83531
+        },
+        {
+            "flight_number": "AC1829",
+            "departure_airport": "YYZ",
+            "arrival_airport": "CDG",
+            "airline": "Air Canada",
+            "price": 38396.0,
+            "available_tickets": 4,
+            "class": "First",
+            "distance_km": 96234
+        },
+        {
+            "flight_number": "AA2008",
+            "departure_airport": "EWR",
+            "arrival_airport": "LAX",
+            "airline": "American Airlines",
+            "price": 8512.0,
+            "available_tickets": 30,
+            "class": "Business",
+            "distance_km": 3344
+        },
+        {
+            "flight_number": "CX5417",
+            "departure_airport": "HKG",
+            "arrival_airport": "ZRH",
+            "airline": "Cathay Pacific",
+            "price": 1243.0,
+            "available_tickets": 7,
+            "class": "Economy",
+            "distance_km": 132590
+        },
+        {
+            "flight_number": "AA3236",
+            "departure_airport": "DFW",
+            "arrival_airport": "PHX",
+            "airline": "American Airlines",
+            "price": 311.5,
+            "available_tickets": 64,
+            "class": "Economy",
+            "distance_km": 1263
+        },
+        {
+            "flight_number": "AA9355",
+            "departure_airport": "ATL",
+            "arrival_airport": "HEL",
+            "airline": "American Airlines",
+            "price": 15665.0,
+            "available_tickets": 2,
+            "class": "Business",
+            "distance_km": 136406
+        },
+        {
+            "flight_number": "AA1281",
+            "departure_airport": "DFW",
+            "arrival_airport": "LIS",
+            "airline": "American Airlines",
+            "price": 3033.0,
+            "available_tickets": 33,
+            "class": "Premium",
+            "distance_km": 65035
+        },
+        {
+            "flight_number": "QF4017",
+            "departure_airport": "BNE",
+            "arrival_airport": "CPT",
+            "airline": "Qantas",
+            "price": 114.0,
+            "available_tickets": 84,
+            "class": "Economy",
+            "distance_km": 109269
+        },
+        {
+            "flight_number": "TK7253",
+            "departure_airport": "IST",
+            "arrival_airport": "MCO",
+            "airline": "Turkish Airlines",
+            "price": 74.0,
+            "available_tickets": 68,
+            "class": "Economy",
+            "distance_km": 174998
+        },
+        {
+            "flight_number": "AA5992",
+            "departure_airport": "PHL",
+            "arrival_airport": "YVR",
+            "airline": "American Airlines",
+            "price": 1000.0,
+            "available_tickets": 31,
+            "class": "Economy",
+            "distance_km": 9027
+        },
+        {
+            "flight_number": "U22519",
+            "departure_airport": "LHR",
+            "arrival_airport": "CHC",
+            "airline": "easyJet",
+            "price": 16622.0,
+            "available_tickets": 21,
+            "class": "Business",
+            "distance_km": 172873
+        },
+        {
+            "flight_number": "AZ6684",
+            "departure_airport": "FCO",
+            "arrival_airport": "SYD",
+            "airline": "Alitalia",
+            "price": 47724.0,
+            "available_tickets": 2,
+            "class": "First",
+            "distance_km": 9095
+        },
+        {
+            "flight_number": "LH3889",
+            "departure_airport": "MUC",
+            "arrival_airport": "CPH",
+            "airline": "Lufthansa",
+            "price": 812.0,
+            "available_tickets": 119,
+            "class": "Economy",
+            "distance_km": 3841
+        },
+        {
+            "flight_number": "AA6798",
+            "departure_airport": "MIA",
+            "arrival_airport": "DFW",
+            "airline": "American Airlines",
+            "price": 9827.0,
+            "available_tickets": 15,
+            "class": "Business",
+            "distance_km": 8464
+        },
+        {
+            "flight_number": "SU5174",
+            "departure_airport": "DME",
+            "arrival_airport": "DEL",
+            "airline": "Aeroflot",
+            "price": 424.0,
+            "available_tickets": 0,
+            "class": "Economy",
+            "distance_km": 866
+        },
+        {
+            "flight_number": "U26547",
+            "departure_airport": "LGW",
+            "arrival_airport": "BOM",
+            "airline": "easyJet",
+            "price": 3604.0,
+            "available_tickets": 65,
+            "class": "Premium",
+            "distance_km": 97483
+        },
+        {
+            "flight_number": "KL9125",
+            "departure_airport": "AMS",
+            "arrival_airport": "DXB",
+            "airline": "KLM Holenderskie Linie Lotnicze",
+            "price": 88.0,
+            "available_tickets": 41,
+            "class": "Economy",
+            "distance_km": 173818
+        },
+        {
+            "flight_number": "AA2281",
+            "departure_airport": "MSP",
+            "arrival_airport": "CUN",
+            "airline": "American Airlines",
+            "price": 2332.5,
+            "available_tickets": 3,
+            "class": "Premium",
+            "distance_km": 4892
+        },
+        {
+            "flight_number": "AI3050",
+            "departure_airport": "BOM",
+            "arrival_airport": "HND",
+            "airline": "Air India",
+            "price": 21304.5,
+            "available_tickets": 3,
+            "class": "First",
+            "distance_km": 6872
+        },
+        {
+            "flight_number": "AA7990",
+            "departure_airport": "LAS",
+            "arrival_airport": "FLL",
+            "airline": "American Airlines",
+            "price": 2197.0,
+            "available_tickets": 40,
+            "class": "Premium",
+            "distance_km": 4444
+        },
+        {
+            "flight_number": "AA4142",
+            "departure_airport": "DFW",
+            "arrival_airport": "CLT",
+            "airline": "American Airlines",
+            "price": 17993.0,
+            "available_tickets": 6,
+            "class": "First",
+            "distance_km": 8429
+        },
+        {
+            "flight_number": "QF7957",
+            "departure_airport": "ADL",
+            "arrival_airport": "LIM",
+            "airline": "Qantas",
+            "price": 4311.0,
+            "available_tickets": 76,
+            "class": "Premium",
+            "distance_km": 41690
+        },
+        {
+            "flight_number": "AF7289",
+            "departure_airport": "CDG",
+            "arrival_airport": "GIG",
+            "airline": "Air France",
+            "price": 1195.0,
+            "available_tickets": 31,
+            "class": "Economy",
+            "distance_km": 2150
+        },
+        {
+            "flight_number": "KL3531",
+            "departure_airport": "AMS",
+            "arrival_airport": "BUD",
+            "airline": "KLM Holenderskie Linie Lotnicze",
+            "price": 11241.0,
+            "available_tickets": 19,
+            "class": "First",
+            "distance_km": 7670
+        },
+        {
+            "flight_number": "FR7960",
+            "departure_airport": "DUB",
+            "arrival_airport": "JNB",
+            "airline": "Ryanair",
+            "price": 299.0,
+            "available_tickets": 72,
+            "class": "Economy",
+            "distance_km": 146271
         }
     ]
 }

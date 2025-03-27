@@ -72,7 +72,7 @@ def main():
             airlinesDicts.append(airlineDict)
 
     #przetwarzanie danych do wynikowego słownika
-    output = {"date" : args.date}
+    output = {"start_date" : args.date}
     flightsList = []
     while len(flightsList) != args.num_records:
 
@@ -131,7 +131,7 @@ def main():
             ticketsAvailable = random.randint(0, 20)
 
         #dodanie słownika do listy słowników
-        flightsList.append({"flight_number": flightNumber, "departure_airport" : originAP, "arrival_airport" : destinationAP, "airline" : airlineInfo[0], "price": float(price), "available_tickets": ticketsAvailable, "class": flightClass, "distance_km" : distance})
+        flightsList.append({"flight_number": flightNumber, "origin" : originAP, "destination" : destinationAP, "airline" : airlineInfo[0], "price": float(price), "tickets_available": ticketsAvailable, "class": flightClass, "distance_km" : distance})
     output["flights"] = flightsList
     
     #zapis wyniku do pliku JSON

@@ -94,8 +94,7 @@ def main():
         sqlFrame = mainFrame[["origin", "destination", "start_date", "tickets_available", "price", "duration", "airline", "departure", "arrival"]]
         
         #dodanie do bazy danych
-        #sqlFrame.to_sql("Flights", con=engine, if_exists="append", index=False)
-        print(sqlFrame)
+        sqlFrame.to_sql("Flights", con=engine, if_exists="append", index=False)
 
         #generowanie raportu
         with open('raport.txt', 'w') as file:

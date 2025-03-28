@@ -1,8 +1,6 @@
 #zaimportowanie modułów
 import datetime
-import json
 import argparse
-import csv
 import random
 import os
 import pandas as pd
@@ -99,7 +97,7 @@ def main():
         #generowanie raportu
         with open('raport.txt', 'w') as file:
             file.write(f"Top 5 linii lotniczych pod wzgledem liczby lotow:\n{topAirlines}\n\n")
-            file.write(f"Najpopularniejsze kierunki lotów (najczesciej wystepujace polaczenia):\n{mostPopularConnections}\n\n")
+            file.write(f"Najpopularniejsze kierunki lotow (najczesciej wystepujace polaczenia):\n{mostPopularConnections}\n\n")
             file.write(f"Maksymalna i minimalna cena biletu w zestawie danych:\n{minAndMaxPrices}\n\n")
             file.write(f"Srednia liczba dostepnych miejsc na lot:\n{avgAvailable}\n\n")
             file.write(f"Linie lotnicze z najwiekszym rozrzutem cenowym biletow:\n{mostRangeAirlines}\n\n")
